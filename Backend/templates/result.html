@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sawaal - Quiz Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
+</head>
+<body>
+    <div class="result-container">
+        <h1>Quiz Completed!</h1>
+        <p id="score">Your Score: --</p>
+        <p id="correct-answers">Correct Answers: --</p>
+        <p id="incorrect-answers">Incorrect Answers: --</p>
+
+        <div class="button-group">
+            <button id="try-again-btn" class="neon-btn">Try Again</button>
+            <button id="choose-another-quiz-btn" class="neon-btn">Choose Another Quiz</button>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/result.js') }}"></script>
+</body>
+</html>

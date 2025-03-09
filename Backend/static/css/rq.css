@@ -1,0 +1,62 @@
+body {
+    background: url("../images/7.jpg") no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Neon Yellow */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Neon Buttons */
+.neon-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.neon-btn:hover {
+    background: #ffdd33;
+    box-shadow: 0px 0px 15px #ffcc00;
+}
+
+/* Quit Button */
+.red-btn {
+    background: #ff4444;
+}
+
+.red-btn:hover {
+    background: #ff6666;
+    box-shadow: 0px 0px 15px #ff4444;
+}

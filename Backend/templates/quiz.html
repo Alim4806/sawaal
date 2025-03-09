@@ -1,0 +1,26 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/quiz.css') }}">
+</head>
+<body>
+    <div class="quiz-container">
+        <h2 id="question-number">Question 1</h2> <!-- ✅ Added missing element -->
+        <h2 id="question-text">Loading question...</h2>
+        <p id="timer">Time left: 30s</p> <!-- ✅ Added missing element -->
+
+        <div class="options">
+            <button class="option-btn" id="optionA">Option A</button>
+            <button class="option-btn" id="optionB">Option B</button>
+            <button class="option-btn" id="optionC">Option C</button>
+            <button class="option-btn" id="optionD">Option D</button>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/quiz.js') }}"></script>
+</body>
+</html>
+

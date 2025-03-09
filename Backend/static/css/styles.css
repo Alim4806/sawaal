@@ -1,0 +1,51 @@
+/* Apply Background Image to Entire Page */
+body {
+    background: url("../images/7.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: black; /* Text in black */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navbar Styling */
+/* Navbar Styling */
+#navbar {
+    background-color: transparent; /* Remove background */
+    padding: 10px 20px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+/* Resize and Position "Sawaal" Logo */
+.navbar-brand {
+    color: white !important;
+    font-size: 1.8rem; /* Make it smaller */
+    font-weight: bold;
+}
+
+
+/* Start Button Styling */
+#start-btn {
+    background-color: #ff00ff; /* Neon Pink */
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    border: 2px solid white;
+    box-shadow: 0px 0px 15px #ff00ff; /* Neon Glow Effect */
+}
+
+#start-btn:hover {
+    background-color: #ff33ff;
+    box-shadow: 0px 0px 25px #ff00ff;
+}

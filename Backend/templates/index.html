@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sawaal - Home</title>
+
+    <!-- Link to Bootstrap CSS (External) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Link to Your Custom CSS -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Sawaal</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="d-flex flex-column align-items-center justify-content-center text-center vh-100">
+        <h1 class="display-4 fw-bold">Test Your Knowledge with Sawaal</h1>
+        <p class="lead">Choose from multiple categories and challenge yourself with engaging quizzes!</p>
+        <a href="{{ url_for('categories') }}" class="btn btn-lg" id="start-btn">Start Quiz</a>
+
+    </section>
+
+    <!-- Link to Bootstrap JavaScript (External) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Link to Your Custom JavaScript -->
+    <script src="/static/js/script.js"></script>
+
+</body>
+</html>
+
+
